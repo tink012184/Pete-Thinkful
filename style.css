@@ -61,10 +61,15 @@ footer {
   text-align: center;
 }
 
-a :link {
+a:link {
   color: #d62828;
 }
-
-a :hover {
+a:visited {
+  color: #d62828;
+}
+a:hover {
+  color: #f77f00;
+}
+a:active {
   color: #f77f00;
 }
